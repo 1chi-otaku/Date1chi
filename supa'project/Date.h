@@ -37,5 +37,16 @@ public:
 	bool operator<=(const Date& obj)const; //Less Than or Equal To operator.
 	bool operator==(const Date& obj)const; //The equality operator.
 	bool operator!=(const Date& obj)const; //The not-equal-to operator.
+
+	//Getters.
+	int GetDay()const;
+	int GetMonth()const;
+	int GetYear()const;
+
+	//Setters.
+	void SetDay(int day);
+	void SetMonth(int month);
+	void SetYear(int year);
+
 };
 

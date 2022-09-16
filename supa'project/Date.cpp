@@ -267,4 +267,34 @@ bool Date::operator!=(const Date& obj)const
 }
 
 
+//Getters.
+int Date::GetDay() const
+{
+	return Day;
+}
+int Date::GetMonth() const
+{
+	return Month;
+}
+int Date::GetYear() const
+{
+	return Year;
+}
+//Setters
+void Date::SetDay(int day)
+{
+	Day = day;
+}
+void Date::SetMonth(int month)
+{
+	Month = month;
+}
+void Date::SetYear(int year)
+{
+	Year = year;
+}
+
+
+
+
 
